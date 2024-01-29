@@ -1,9 +1,18 @@
+/* === ALL TEXT === */
 body
 {
     background: #98D2EB;
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 
+/* === TOP CLOUD CLASSIFICATIONS === */
+.cloud-type
+{
+    color: #fff;
+}
+
+/* === CENTER TEXT === */
 .center-container {
     position: absolute;
     top: 50%;
@@ -17,7 +26,12 @@ body
     margin-bottom: 10px;
     line-height: 1.5px;
     color: #fff;
-    font-family: 'Shadows Into Light', cursive;
+}
+
+/* === REMOVES UL BULLETPOINTS === */
+ul
+{
+    list-style-type: none;
 }
 
 /* === CLOUD ONE === */
