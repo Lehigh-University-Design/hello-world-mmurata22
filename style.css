@@ -4,6 +4,7 @@ body
     background: #98D2EB;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+    font-optical-sizing: normal;
 }
 
 /* === TOP CLOUD CLASSIFICATIONS === */
