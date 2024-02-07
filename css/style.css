@@ -74,8 +74,7 @@ ul
 /* === CLOUD TWO === */
 .container-2
 {
-    position: relative;
-    left: 1000px;
+    margin-left: auto;
     height: 1000px;
 }
 .cloud-2
@@ -98,4 +97,12 @@ ul
     background: #fff;
     border-radius: 50%;
     box-shadow: 90px 0 0 30px #fff;
+}
+.cloud_alignment{
+    display: flex;
+}
+
+.cloud_svg{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
