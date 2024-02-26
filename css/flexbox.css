@@ -1,0 +1,33 @@
+.deck{
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.card{
+    background-color: beige;
+    width: 400px;
+    height: 200px;
+    padding: 50px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items: center;
+}
+
+.cloud{
+    display: flex;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.profile_pic{
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url(/images/clouds_image.svg);
+}
